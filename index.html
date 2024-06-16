@@ -71,14 +71,13 @@
 -->
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 連結預覽 -->
-    <meta name="description"
-        content="我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?">
-    <meta name="keywords"
-        content="嘉義高中,">
+    <meta name="description" content="我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?">
+    <meta name="keywords" content="嘉義高中,">
     <link rel="canonical" href="主要連結">
     <meta name="twitter:card" content="summary_large_image"> <!-- 暫不更動 -->
     <meta name="twitter:image:src" content="預覽圖片">
@@ -87,8 +86,7 @@
     <meta property="og:site_name" content="網站名稱">
     <meta property="og:type" content="website"> <!-- 暫不更動 -->
     <meta property="og:title" content="網站名稱">
-    <meta property="og:description"
-        content="我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?">
+    <meta property="og:description" content="我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?">
     <meta property="og:image" content="預覽圖片">
     <meta property="og:url" content="連結">
     <!-- 網站顯示資料 -->
@@ -104,8 +102,49 @@
     <script src="https://kit.fontawesome.com/a80c5dc208.js" crossorigin="anonymous"></script>
     <!-- 需要使用Popup時請解開註解(VSCode: Ctrl+K -> Ctrl+U) -->
     <!-- <script src="./popup.js"></script> -->
+    <script src="./menu.js"></script>
 </head>
-<body> 
-    
+
+<body>
+    <div class="control">
+        <div class="bar">
+            <div class="tile">
+                <i class="fa-solid fa-bars" id="open_menu"></i>
+                <p>嘉義高中資訊研究社</p>
+            </div>
+        </div>
+        <nav class="menu">
+            <div class="content center">
+                <div class="menu_tile" link="./">首頁</div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="bg"></div>
+    <div class="top"></div>
+    <a href="#intro"> <!--請求下滑圖標-->
+        <div class="sd"> <!--sd=scroll down-->
+            <p class="sd_icon"><i class="fa fa-angle-double-down"></i></p>
+            <p>向下滑看更多</p>
+        </div>
+    </a>
+    <div style="height: 10%;"></div>
+    <div class="content lxgw-wenkai-tc-light" id="intro">
+        <p>我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?</p>
+    </div>
+    <div class="content">
+        <a href="#people_history" class="no-change"> <!-- href要符合下面h1的id(記得要加#) -->
+            <h1 class="lxgw-wenkai-tc-bold" id="people_history">資研社歷史幹部</h1>
+        </a>
+        <div class="plate" style="height: 500px;">
+            <iframe
+                src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1OkugwmGZXD7VfeWTpb7lHzC9_jHoa6S8cUnsbwHg-Lo&font=Default&lang=en&initial_zoom=2'
+                width='100%' height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen
+                frameborder='0'></iframe>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
