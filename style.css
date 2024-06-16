@@ -237,6 +237,9 @@ tr {
 .menu::-webkit-scrollbar {
     display: none;
 }
+.menu * {
+    margin-top: 5px;
+}
 
 
 /* Screen Size Control */
