@@ -208,7 +208,7 @@ tr {
 /* Bar Control */
 
 .control,
-.control_o {
+.control_o{
     position: fixed;
     top: 0;
     left: 0;
@@ -216,9 +216,9 @@ tr {
     z-index: 500;
 }
 
-.control_o {
+/* .control_o {
     height: 100%;
-}
+} */
 
 .bar {
     margin-left: 1%;
