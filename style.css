@@ -73,8 +73,7 @@ body {
     background-color: #020614;
 }
 
-.tile,
-.menu_tile {
+.tile {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -84,21 +83,8 @@ body {
     gap: 5px;
 }
 
-.menu_tile {
-    color: white;
-    border: 1px solid white;
-    padding: 20px;
-    text-align: center;
-    transition: 0.5s;
-}
 
-.menu_tile:hover {
-    border: 1px solid cyan;
-    color: cyan;
-}
-
-.tile,
-.menu_tile i {
+.tile {
     margin-right: 10px;
     font-size: 25px;
 }
@@ -127,15 +113,13 @@ a:not(.no-change) {
     color: cyan;
 }
 
-a.no-change,
-#open_menu {
+a.no-change{
     color: white;
     text-decoration: none;
     transition: 0.5s;
 }
 
-a.no-change:hover,
-#open_menu:hover {
+a.no-change:hover {
     color: cyan;
 }
 
@@ -216,13 +200,10 @@ tr {
     z-index: 500;
 }
 
-/* .control_o {
-    height: 100%;
-} */
-
 .bar {
-    margin-left: 1%;
-
+    padding-left: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 }
 
 .menu {
@@ -241,6 +222,43 @@ tr {
     margin-top: 5px;
 }
 
+.menu_tile {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+    padding-bottom: 1%;
+    gap: 5px;
+}
+
+.menu_tile {
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.menu_tile:hover {
+    border: 1px solid cyan;
+    color: cyan;
+}
+
+.menu_tile i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#open_menu {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#open_menu:hover {
+    color: cyan;
+}
 
 /* Screen Size Control */
 
@@ -279,7 +297,7 @@ tr {
     }
 
     .top {
-        background-image: url(./top-pc.png);
+        background-image: url(./res/irc.png);
 
         /* Full height */
         height: 100%;
