@@ -1,0 +1,3 @@
+[submodule "jnic"]
+	path = jnic
+	url = https://github.com/113cyshirc/JNIC.git

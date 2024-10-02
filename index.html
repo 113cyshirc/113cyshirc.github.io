@@ -1,83 +1,13 @@
-<!-- 
-      ╔════╦════╗       ╔╗       ╔══╗       ╔══════
-      ║    ║    ║      ╔╝╚╗      ║    ╚═╗   ║
-      ║    ║    ║      ║  ║      ║       ║  ╠══════
-      ║    ║    ║    ╔╝    ╚╗    ║       ║  ║
-      ║    ║    ║    ╠══════╣    ║    ╔═╝   ║
-      ║    ║    ║  ╔╝        ╚╗  ╚══╝       ╚══════
-
-
-                      ╔═════╗   ║       ║
-                      ║     ║    ╚╗   ╔╝
-                      ║═════╣      ╚╦╝
-                      ║     ║       ║
-                      ║     ║       ║
-                      ╚═════╝       ║
-
-
-
-                ║  ╔╝  ╔╗  ╖  ╔═══╗  ╚╗  ║  ╔╝  
-                ║╔╝    ║╚╗ ║  ║   ║   ║  ║  ║
-                ╠╝     ║ ║ ║  ║   ║   ║  ║  ║
-                ╠╗     ║ ╚╗║  ║   ║   ╚╗ ║ ╔╝
-                ║╚╗    ║  ║║  ║   ║    ║ ║ ║
-                ║  ╚╗  ╙  ╚╝  ╚═══╝    ╚═╩═╝
-
-
-     ╔══  ╔══  ╔══╗    ╔═╗   ══╦══  ╔══  ║    ║  ╔══  ╔══╗
-     ║    ║    ║  ║    ║ ║     ║    ║    ║    ║  ║    ║  ║
-     ╚═╗  ║    ╠╦═╝    ╠═╣     ║    ║    ╠════╣  ╠══  ╠╦═╝
-       ║  ║    ║╚═╗   ║   ║    ║    ║    ║    ║  ║    ║╚═╗
-     ══╝  ╚══  ║  ╚  ║     ║   ║    ╚══  ║    ║  ╚══  ║  ╚ 
-
-
-
-
-
-        ╔══  ║     ║  ╔══  ║    ║        ═╦═  ╔══╗  ╔═══
-        ║     ║   ║   ║    ║    ║         ║   ║  ║  ║
-        ║      ╚╦╝    ╚═╗  ╠════╣         ║   ╠╦═╝  ║
-        ║       ║       ║  ║    ║         ║   ║╚═╗  ║
-        ╚══     ║     ══╝  ║    ║        ═╩═  ║  ╚  ╚═══
-
-                     資研社保佑   程式bug退散
-  -->
-<!-- 來自資研社 請求佛祖保佑
-  
-                       _oo0oo_
-                      o8888888o
-                      88" . "88
-                      (| -_- |)
-                      0\  =  /0
-                    ___/`---'\___
-                  .' \\|     |// '.
-                 / \\|||  :  |||// \
-                / _||||| -:- |||||- \
-               |   | \\\  -  /// |   |
-               | \_|  ''\---/''  |_/ |
-               \  .-\__  '-'  ___/-. /
-             ___'. .'  /--.--\  `. .'___
-          ."" '<  `.___\_<|>_/___.' >' "".
-         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
-         \  \ `_.   \_ __\ /__ _/   .-` /  /
-     =====`-.____`.___ \_____/___.-`___.-'=====
-                       `=---='
-
-
-     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-               佛祖保佑         永無BUG
-
--->
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 連結預覽 -->
+
+    <!-- metadata -->
     <meta name="description" content="我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?">
-    <meta name="keywords" content="嘉義高中,">
+    <meta name="keywords" content="嘉義高中,資訊研究社,資研社,家中資研社,嘉中,嘉中資研社">
     <link rel="canonical" href="https://113cyshirc.github.io/">
     <meta name="twitter:card" content="summary_large_image"> <!-- 暫不更動 -->
     <meta name="twitter:image:src"
@@ -91,20 +21,30 @@
     <meta property="og:image"
         content="https://raw.githubusercontent.com/113cyshirc/113cyshirc.github.io/main/res/irc.png">
     <meta property="og:url" content="https://113cyshirc.github.io/">
+
     <!-- 網站顯示資料 -->
     <title>CYSH IRC 嘉義高中資訊研究社</title>
-    <link rel="stylesheet" href="./style.css">
+
     <!-- 字體 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@300;400;700&display=swap" rel="stylesheet">
+
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <!-- Icons -->
-    <script src="https://kit.fontawesome.com/a80c5dc208.js" crossorigin="anonymous"></script>
-    <!-- 需要使用Popup時請解開註解(VSCode: Ctrl+K -> Ctrl+U) -->
-    <!-- <script src="./popup.js"></script> -->
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- local -->
     <script src="./menu.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLFXMFCCQX"></script>
     <script>
@@ -117,46 +57,32 @@
 </head>
 
 <body>
-    <div class="control">
-        <div class="bar">
-            <div class="tile">
-                <i class="fa-solid fa-bars" id="open_menu"></i>
-                <p>嘉義高中資訊研究社</p>
-            </div>
-        </div>
-        <nav class="menu">
-            <div class="content">
-                <div class="menu_tile" link="./">首頁</div>
-                <div class="menu_tile" link="./JNIC">JNIC嘉南聯合資訊探索營</div>
-            </div>
-        </nav>
-    </div>
 
-    <div class="bg"></div>
-    <div class="top"></div>
-    <a href="#intro"> <!--請求下滑圖標-->
-        <div class="sd"> <!--sd=scroll down-->
-            <p class="sd_icon"><i class="fa fa-angle-double-down"></i></p>
-            <p>向下滑看更多</p>
-        </div>
-    </a>
-    <div style="height: 10%;"></div>
-    <div class="content lxgw-wenkai-tc-light" id="intro">
-        <p>我們熱愛資訊科技，我們是嘉中資訊研究社，我們使每一個不可能變成可...能?</p>
-    </div>
-    <div class="content">
-        <a href="#people_history" class="no-change"> <!-- href要符合下面h1的id(記得要加#) -->
-            <h1 class="lxgw-wenkai-tc-bold" id="people_history">資研社歷史幹部</h1>
-        </a>
-        <div class="plate" style="height: 500px;">
-            <iframe
-                src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1OkugwmGZXD7VfeWTpb7lHzC9_jHoa6S8cUnsbwHg-Lo&font=Default&lang=en&initial_zoom=2'
-                width='100%' height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen
-                frameborder='0'></iframe>
-        </div>
-    </div>
+    <nav class="navbar navbar-expand-sm bg-black text-white">
+        <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item p-2">
+                    <i class="bi bi-list h3" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"></i>
+                </li>
+                <li class="nav-item p-2">
+                    <h1>嘉義高中資訊研究社</h1>
+                </li>
+            </ul>
 
+        </div>
 
+    </nav>
+
+    <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">目錄</h1>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a href="./">首頁</a>
+        </div>
+      </div>
 </body>
 
 </html>
